@@ -1,0 +1,44 @@
+body{
+  background-color: black;  
+}
+
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+table {
+  border-collapse: collapse;
+  width: 300px;
+  height: 300px;
+}
+
+td {
+  border: 1px solid white;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+#restart {
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+/* Authored by Mukul Yadav */
